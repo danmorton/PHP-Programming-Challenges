@@ -45,7 +45,45 @@
 					<input type="submit" name="submit" value="Calculate">
 				</form>
 				<div id="kap_response" class="form_response" style="display:none;">Response will go here.</div>
-			</div><!-- challenge -->		
+			</div><!-- challenge -->
+
+			<!-- TODO Add support for alien numbers... I don't really understand the problem's output/input.
+			<div class="challenge">
+				<h3>Alien Numbers</h3>
+				<form id="aln_form" method="post" action="FormResponder.php">						
+					<input type="hidden" name="process_token" value="could_be_based_off_session">
+					<input type="hidden" name="challenge" value="AlienNumbers">
+					<label for="input_data">Aliens???:</label><br/>
+					<input type="text" name="input_data" size="25" value="1000"><br>
+					<input type="submit" name="submit" value="Calculate">
+				</form>
+				<div id="aln_response" class="form_response" style="display:none;">Response will go here.</div>
+			</div> --><!-- challenge -->	
+
+			<div class="challenge">
+				<h3>Happy Numbers</h3>
+				<form id="hpy_form" method="post" action="FormResponder.php">						
+					<input type="hidden" name="process_token" value="could_be_based_off_session">
+					<input type="hidden" name="challenge" value="HappyNumbers">
+					<label for="input_data">Happy Numbers (Delimited by ','):</label><br/>
+					<textarea rows="4" cols="72" name="input_data"></textarea><br/>
+					<input type="submit" name="submit" value="Calculate">
+				</form>
+				<div id="hpy_response" class="form_response" style="display:none;">Response will go here.</div>
+			</div><!-- challenge -->					
+
+			<div class="challenge">
+				<h3>Greplin Challenge</h3>
+				<form id="grp_form" method="post" action="FormResponder.php">						
+					<input type="hidden" name="process_token" value="could_be_based_off_session">
+					<input type="hidden" name="challenge" value="Greplin">
+					<label for="input_data">Large portion of text to find largets palindrome:</label><br/>
+					<textarea rows="4" cols="72" name="input_data"></textarea><br/>
+					<input type="submit" name="submit" value="Calculate">
+				</form>
+				<div id="grp_response" class="form_response" style="display:none;">Response will go here.</div>
+			</div><!-- challenge -->					
+			
 		<div><!-- main -->		
 	</body>
 </html>

@@ -57,4 +57,7 @@ $(function () {
 	dynamicForm("#ent_form", "#ent_response");
 	dynamicForm("#fib_form", "#fib_response");
 	dynamicForm("#kap_form", "#kap_response");
+	dynamicForm("#aln_form", "#aln_response");
+	dynamicForm("#hpy_form", "#hpy_response");
+	dynamicForm("#grp_form", "#grp_response");
 });
