@@ -18,6 +18,18 @@ The challenges:
 
 - Finds kaprekar numbers less than user provided input
 
+4) Alien Number
+
+- This one confuses me and I have not done it yet..
+
+5) Happy Numbers
+
+- Find a numbers whose some of it's square parts eventaully result in 1
+
+6) Greplin Challenge
+
+- Find larges Palindrome
+
 
 License
 =======
