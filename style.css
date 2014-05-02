@@ -1,0 +1,42 @@
+/**
+ * Making stuff look nice is not my thing. I can implement designe but not come up with it.. so don't judge my CSS :)
+ * By Dan Morton
+ */
+ 
+/**
+ * Main page title
+ */
+ 
+h1 {
+	text-align: center;
+}
+ /**
+ * Main div, this is just a wrapper for the whole page content
+ */
+.main {
+	width:700px;
+	margin:0px auto;
+	text-align:left;
+	padding:15px;
+	border:1px dashed #333;
+	background-color:#eee;
+}
+  
+/**
+ * I like to pad stuff. Here is bunch of padded classes.
+ */
+.challenge, .challenge form, .form_response, .response_content {
+	padding-left: 2em;
+}
+/*
+ * Style for good response span
+ */
+.good_response {
+	color: green;
+}
+/*
+ * Style for bad response span
+ */
+.bad_response {
+	color: red;
+}
